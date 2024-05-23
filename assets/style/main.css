@@ -6,10 +6,6 @@ body {
     font-size: 18px;
     /*opacity: 0.95;*/
 }
-/*.container-content {*/
-/*    background-image: url('../../assets/image/home-top.jpg');*/
-/*    background-repeat: no-repeat;*/
-/*}*/
 
 .page-wrap {
     display: block;
@@ -47,7 +43,8 @@ body {
 
 /* Active/current link */
 .topnav a.active {
-    background-color: #2196F3;
+    /*background-color: #2196F3;*/
+    background-color: red;
     color: white;
 }
 
@@ -62,7 +59,7 @@ body {
     margin-top: 8px;
     font-size: 17px;
     border: none;
-    width: 125px; /* adjust as needed (as long as it doesn't break the topnav) */
+    width: 125px;
 }
 
 /* Style the button inside the input container */
